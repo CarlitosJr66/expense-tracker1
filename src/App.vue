@@ -56,6 +56,6 @@
     <Balance :total="total"></Balance>
     <IncomeExpenses :income="income" :expense="expense"></IncomeExpenses>
     <AddTransaction @transactionSubmitted="handleTransactionSubmitted"></AddTransaction>
-    {{ transactions }}
+    <!-- {{ transactions }} -->
   </div>
   </template>
